@@ -3,6 +3,7 @@ class CreateHomes < ActiveRecord::Migration
     create_table :homes do |t|
       t.string :name
       t.string :prefecture
+      t.integer :height
 
       t.timestamps null: false
     end
